@@ -70,4 +70,11 @@
       margin-bottom: 20px;
     }
   }
+
+  &__spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
 }
