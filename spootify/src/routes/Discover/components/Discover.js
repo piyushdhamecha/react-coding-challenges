@@ -70,7 +70,7 @@ export default class Discover extends Component {
     }
 
     const { data } = resp
-    console.log(stateKey)
+
     this.updateState({
       stateKey,
       data: data[responseKey].items,
